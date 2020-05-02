@@ -34,7 +34,15 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-
+    "gatsby-plugin-catch-links",
+    "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: `${__dirname}/content/posts`
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
