@@ -1,4 +1,3 @@
-// src/components/Layout/Layout.jsx
 import React from 'react';
 
 export default ({ children, title }) => (
