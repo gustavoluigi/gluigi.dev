@@ -10,10 +10,8 @@ export const Header = styled.header`
   transform: translateX(-50%);
   padding: 1.5rem 0;
 
-  a {
-    img {
-      width: 150px;
-    }
+  img {
+    width: 150px;
   }
 
   @media (max-width: 767px) {
