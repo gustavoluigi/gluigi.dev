@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 
 import CommingSoon from '../components/commingSoon/index';
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 import { graphql, useStaticQuery } from 'gatsby';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
     site {
       siteMetadata {
         title
+        description
       }
     }
   }
@@ -20,9 +22,11 @@ export default function App() {
         <Helmet>
             <meta charSet="utf-8"/>
             <title>{data.site.siteMetadata.title}</title>
+            <meta name="description" content={data.site.siteMetadata.description} />
         </Helmet>
-        <Header></Header>
-        <CommingSoon></CommingSoon>
+        <Header />
+        <CommingSoon />
+        <Footer />
     </>
     )
 }

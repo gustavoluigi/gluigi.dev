@@ -3,7 +3,7 @@ const config = {
     title: `Gustavo Luigi Brancacio | Front-end Developer`,
     description: `Gustavo Luigi Brancacio - Especialista em desenvolvimento front-end`,
     author: `Gustavo Luigi Brancacio`,
-    siteUrl: `http://gluigi.dev`,
+    siteUrl: `https://gluigi.dev`,
     social: [
       {
         name: 'github',

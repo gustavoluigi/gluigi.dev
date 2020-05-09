@@ -6,7 +6,7 @@ import logo from '../../assets/img/logo-b.svg';
 
 export default() => (
     <Header>
-        <Fade bottom cascade>
+        <Fade top cascade>
           <img src={logo} alt=""/>
         </Fade>
     </Header>

@@ -58,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `http://www.gluigi.dev`,
+        siteUrl: `https://www.gluigi.dev`,
       },
     },
     {
